@@ -1,7 +1,7 @@
-import datetime
+import datetime as dt
 
-# current date:
-now = datetime.datetime.now()
+# welcome message current date:
+now = dt.datetime.now()
 day_number = (now.strftime("%d"))
 day_name = (now.strftime("%A"))
 month_name = (now.strftime("%B"))
