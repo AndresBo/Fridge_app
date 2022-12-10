@@ -6,7 +6,7 @@ def start_menu():
     print("\n------------ Welcome to FRIDGE ------------")
     print(welcome_date())
     print("\nPlease select from the following options by entering the number:")
-    print("1. List of foods in fridge")
+    print("1. List foods in fridge")
     print("2. Enter new food")
     print("3. Remove food")
     print("4. Query food amount")
