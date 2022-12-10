@@ -1,2 +1,0 @@
-
-ingredients_list = {}
