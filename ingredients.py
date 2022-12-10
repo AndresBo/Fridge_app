@@ -1,4 +1,5 @@
 from return_integer import get_int
+from ingredients_list import ingredients_list
 
 #define a ingredient:
 class Ingredient:
@@ -9,12 +10,26 @@ class Ingredient:
     def get_ingredient_count(self):    
         return self.count
 
+    def set_new_ingredient(self):
+        while True:
+            self.name = input("name of new ingredient?").lower().strip()
+            if self.name in ingredients_list:
+                print("This ingredient is already in the fridge, please enter again")
+                continue
+            break
+        print("How much of the ingredient do we have?")
+        self.count = get_int
+        
+        ingredients_list[self.name] = self.count
+
+        print(f"{self.count} of {self.name} has been added to the fridge")
+
     def set_ingredient_count(self, new_count):
         new_count = get_int()    
         self.count = new_count       
 
-banana = Ingredient("banana", 1)               
+# banana = Ingredient("banana", 1)               
 
-print(banana.get_ingredient_count())
-banana.set_ingredient_count("a")
-print(banana.get_ingredient_count())
+# print(banana.get_ingredient_count())
+# banana.set_ingredient_count("a")
+# print(banana.get_ingredient_count())
