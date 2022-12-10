@@ -1,5 +1,13 @@
-from return_integer import get_int
-from ingredients_list import ingredients_list
+import csv
+
+def list_foods():
+    with open('ingredients_list.csv') as f:
+        reader = csv.reader(f)
+        reader.__next__()
+        for row in reader:
+            print(f"{row[0]}, {row[1]}")
+
+
 
 # #define a ingredient:
 # class Ingredient:

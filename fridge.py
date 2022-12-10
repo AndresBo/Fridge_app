@@ -1,5 +1,6 @@
 from os import system
 from welcome_date import welcome_date
+from ingredients import list_foods
 
 def start_menu():
     print("\n------------ Welcome to FRIDGE ------------")
@@ -19,7 +20,7 @@ while selection != "5":
     selection = start_menu()
     system('clear')
     if selection == "1": # list foods
-        print("list of food")
+        list_foods()
     elif selection == "2": # enter new food
         print("enter new food")
     elif selection == "3": # remove food
