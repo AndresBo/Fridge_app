@@ -1,9 +1,10 @@
 import csv
 
-list = []
+new_food = []
 
 # def enter_ingredient():
-with open('food_list.csv', 'a') as f:
-    writer = csv.writer(f)
-    writer.writerow(list)
-    f.close()
+def add_new_ingredient(new_food):
+    with open('food_list.csv', 'a') as f:
+        writer = csv.writer(f)
+        writer.writerow(new_food)
+        f.close()
