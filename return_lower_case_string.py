@@ -3,15 +3,15 @@ from os import system
 def get_string():
     while True:
         
-        new_food = input("Please enter name of new food or to head back to menu enter 'back': ").lower().strip()
-        if new_food == "back":
+        food_name = input("Please enter name of food or to head back to menu enter 'back': ").lower().strip()
+        if food_name == "back":
             break
-        elif not new_food.isalpha():
+        elif not food_name.isalpha():
             system('clear')
             print("Enter only letters")
             input("\nPress enter to continue")
             system('clear')
             continue
         else:
-            return new_food
+            return food_name
             break

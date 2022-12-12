@@ -1,9 +1,16 @@
 import csv
+from return_lower_case_string import get_string
+from build_set_food_names import build_set_name
 # https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python
+def remove_food_ask():
+    food_to_remove = get_string()
+    if food_to_remove is None:                #option to get back to start menu
+        return
+        
+    set_of_food_in_list = build_set_name
 
 def remove_food():
-    food_remove = input("Enter name of food you wish to remove or 'quit' to head back to main menu: ").lower().strip()
-
+    
     lines = list()
     
     # write contents of csv file to list, ommiting row we wish to delete
