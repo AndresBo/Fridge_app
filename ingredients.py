@@ -2,15 +2,16 @@ import csv
 
 def list_foods():
     with open('food_list.csv') as f:
-        reader = csv.reader(f)
-        reader.__next__()
+        reader = csv.DictReader(f)
+        #reader.__next__()
         for row in reader:
-            print(f"{row[0]}, {row[1]}")
+            print (f"{row['food']} {row['quantity']}")
+            
 
 
           
 
-
+list_foods()
 # #define a ingredient:
 # class Ingredient:
 #     def __init__(self, name, count):
