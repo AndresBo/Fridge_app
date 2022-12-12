@@ -10,8 +10,8 @@ def get_string():
             system('clear')
             print("Enter only letters")
             input("\nPress enter to continue")
+            system('clear')
             continue
         else:
             return new_food
             break
-#print(get_string()) 

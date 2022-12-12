@@ -4,7 +4,10 @@ from build_set_food_names import build_set_name
 from return_integer import get_int
 
 def ask_new_food():
-    new_food = get_string()             #use get_string function to get new food name from user        
+    new_food = get_string()             #use get_string function to get new food name from user
+    if new_food is None:                #option to get back to start menu
+        return
+
     set_food_in_list = build_set_name() #get a set with current foods
     quantity = 0                        #create variable to hold quantity of new food
     new_food_list = []                  #create list to hold name and quatity of new food 
