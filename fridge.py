@@ -1,7 +1,7 @@
 from os import system
 from welcome_date import welcome_date
-from ingredients import list_foods
-from new_ingredient import ask_new_food
+from ingredients_list import list_foods
+from ingredient_new import ask_new_food
 
 def start_menu():
     print("\n------------ Welcome to FRIDGE ------------")

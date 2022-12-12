@@ -3,7 +3,7 @@ import sys
 
 sys.path.append('../fridge_app')
 
-from ingredients import list_foods
+from ingredients_list import list_foods
 
 
 
