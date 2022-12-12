@@ -6,7 +6,11 @@ def ask_new_food():
     new_food = get_string()
     set_food_in_list = build_set_name()
 
-    
+    if new_food in set_food_in_list:
+        print(f"{new_food} is already in Fridge")
+    else:
+        print(f"{new_food} is not in {set_food_in_list}")
+
 
 
 # add new row to csv file from new_food list
