@@ -9,6 +9,7 @@ def ask_new_food():
     if new_food in set_food_in_list:
         print(f"{new_food} is already in Fridge")
     else:
+        # get count and add to list
         print(f"{new_food} is not in {set_food_in_list}")
 
 
