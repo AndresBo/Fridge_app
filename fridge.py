@@ -2,6 +2,7 @@ from os import system
 from welcome_date import welcome_date
 from ingredients_list import list_foods
 from ingredient_new import ask_new_food
+from ingredient_remove_ask import remove_food_ask
 
 def start_menu():
     print("\n------------ Welcome to FRIDGE ------------")
@@ -25,7 +26,7 @@ while selection != "5":
     elif selection == "2": # enter new food
         ask_new_food()
     elif selection == "3": # remove food
-        print("remove food")
+        remove_food_ask()
     elif selection == "4": # query food amount
         print("query food")
     elif selection == "5": #exit
