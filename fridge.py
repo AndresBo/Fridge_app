@@ -11,7 +11,7 @@ def start_menu():
     print("1. List foods in fridge")
     print("2. Enter new food")
     print("3. Remove food")
-    print("4. Query food amount")
+    print("4. Update food quantity")
     print("5. Exit")
     selection = input("\nPlease enter your selection: ")
     return selection
