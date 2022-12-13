@@ -32,7 +32,7 @@ while selection != "5":
         update_food_ask()
     elif selection == "5": #exit
         continue
-    else:
+    else:       
         print("Invalid input")
     input("\nPress enter to continue")
     system('clear')
