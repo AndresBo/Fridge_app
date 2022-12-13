@@ -1,4 +1,4 @@
-# get non-negative integer function:
+# get non-negative integer helper function:
 def get_int():
     while True:
         count = input("Enter quantity: ")
@@ -11,4 +11,3 @@ def get_int():
         except ValueError:
             print("Quantity must a whole number")
     return val
-

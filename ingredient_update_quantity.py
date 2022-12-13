@@ -9,9 +9,10 @@ def update_food_quantity(food):
         for row in reader:                       #iterates through every row
             lines.append(row)                    #append each row into list "lines"
             for field in row:                    #iterates through every field in row
-                if field == food[0]:          
-                    lines.remove(row)
-                    lines.append(food)
+                if field == food[0]:             #if field string matches name we wish to update
+                    lines.remove(row)            #remove that row from lines(list)
+                    lines.append(food)           #add updated row to lines(list)
+    
     #rewrite updated list back to csv file
     with open('food_list.csv', 'w') as writeFile:
         writer = csv.writer(writeFile)

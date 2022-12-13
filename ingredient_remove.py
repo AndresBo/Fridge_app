@@ -1,9 +1,9 @@
 import csv
-# https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python
+# https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python  <--- COPIED FROM!
 def remove_food(foodRemove):
     lines = list()
     
-    # write contents of csv file to list, ommiting row we wish to delete
+    # write contents of csv file to list, OMMITING row we wish to delete
     with open('food_list.csv', 'r') as readFile:
         reader = csv.reader(readFile)
         for row in reader:
