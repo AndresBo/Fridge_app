@@ -2,7 +2,8 @@ import csv
 from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from ingredient_remove import remove_food
-from fridge import food_list 
+
+food_list = 'food_list.csv' 
 
 # https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python   <----- copied from!
 def remove_food_ask():

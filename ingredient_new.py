@@ -2,8 +2,8 @@ import csv
 from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from return_integer import get_int
-from fridge import food_list
 
+food_list = 'food_list.csv'
 # asks for new food item:
 def ask_new_food():
     print("Enter new food")
