@@ -4,6 +4,7 @@ from build_set_food_names import build_set_name
 from ingredient_remove import remove_food
 # https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python
 def remove_food_ask():
+    print("Remove food")
     food_to_remove = get_string()
     if food_to_remove is None:                #option to get back to start menu
         return

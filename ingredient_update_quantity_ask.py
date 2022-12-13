@@ -5,6 +5,7 @@ from ingredient_update_quantity import update_food_quantity
 
 
 def update_food_ask():
+    print("Update food quantity")
     food_to_update = get_string()
     if food_to_update is None:                #option to get back to start menu
         return
