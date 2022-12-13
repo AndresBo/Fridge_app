@@ -2,6 +2,7 @@ import csv
 from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from ingredient_remove import remove_food
+food_list = 'food_list.csv'
 # https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python   <----- copied from!
 def remove_food_ask():
     print("Remove food")
@@ -9,7 +10,7 @@ def remove_food_ask():
     if food_to_remove is None:                #option to get back to start menu
         return
         
-    set_of_food_in_list = build_set_name()    #gets set of current food
+    set_of_food_in_list = build_set_name(food_list)    #gets set of current food
 
     if food_to_remove in set_of_food_in_list: #compares if food is in set or not, if TRUE delete, if FALSE notify user.
         remove_food(food_to_remove)           #calls remove_food function
