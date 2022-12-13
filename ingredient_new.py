@@ -2,6 +2,7 @@ import csv
 from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from return_integer import get_int
+from fridge import food_list
 
 # asks for new food item:
 def ask_new_food():
@@ -11,9 +12,9 @@ def ask_new_food():
     if new_food is None:                #option to get back to start menu if get_string returns None
         return
 
-    set_food_in_list = build_set_name() #get a set with current foods from build_set_name function
-    quantity = 0                        #create variable to hold quantity of new food
-    new_food_list = []                  #create list to hold name AND quatity of new food 
+    set_food_in_list = build_set_name(food_list) #get a set with current foods from build_set_name function
+    quantity = 0                                 #create variable to hold quantity of new food
+    new_food_list = []                           #create list to hold name AND quatity of new food 
 
     if new_food in set_food_in_list:    #checks if new_food is in set of current food 
         print(f"{new_food} is already in Fridge")    

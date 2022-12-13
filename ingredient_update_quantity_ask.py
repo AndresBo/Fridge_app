@@ -2,7 +2,7 @@ from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from return_integer import get_int
 from ingredient_update_quantity import update_food_quantity
-
+from fridge import food_list
 
 def update_food_ask():
     print("Update food quantity")            
@@ -10,7 +10,7 @@ def update_food_ask():
     if food_to_update is None:                #option to get back to start menu
         return
     
-    set_food_in_list = build_set_name()      #get set of current food 
+    set_food_in_list = build_set_name(food_list)  #get set of current food 
     
     if food_to_update in set_food_in_list:   #if food in the set of current food:
         new_quantity = get_int()             #get new quantity
