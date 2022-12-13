@@ -1,4 +1,5 @@
 from os import system
+
 # get a LOWER case string with leading and trailing whitespace removed
 def get_string():
     while True:
