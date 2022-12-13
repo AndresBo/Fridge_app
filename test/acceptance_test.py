@@ -2,6 +2,7 @@ import sys
 sys.path.append('../fridge_app')
 
 from build_set_food_names import build_set_name
+from ingredients_list import list_foods
 
 for_test_food_list = 'test_csv.csv'
 
@@ -15,4 +16,6 @@ def test_build_set_name_lenght():
     result = build_set_name(for_test_food_list)
     assert len(result) == 2
 
+#list_foods(for_test_food_list) use:
+#https://stackoverflow.com/questions/33767627/python-write-unittest-for-console-print
     
