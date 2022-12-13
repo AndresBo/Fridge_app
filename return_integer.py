@@ -9,5 +9,5 @@ def get_int():
             else:
                 print("Quantity can't be negative")
         except ValueError:
-            print("Quantity must a whole number")
+            print("Quantity must be a whole number")
     return val
