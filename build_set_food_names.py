@@ -1,5 +1,4 @@
 import csv
-from return_lower_case_string import get_string 
 
 # csv -> set
 # build a set of current names in food_list.csv
@@ -10,6 +9,3 @@ def build_set_name():
         for row in reader:
             names_set.add(f"{row['food']}")
     return names_set
-
-
-
