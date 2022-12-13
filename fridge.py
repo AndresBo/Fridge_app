@@ -4,7 +4,7 @@ from ingredients_list import list_foods
 from ingredient_new import ask_new_food
 from ingredient_remove_ask import remove_food_ask
 from ingredient_update_quantity_ask import update_food_ask
-
+list = 'food_list.csv'
 # credit to Jairo for the menu layout:
 def start_menu():
     print("\n------------ Welcome to FRIDGE ------------")
@@ -24,7 +24,7 @@ while selection != "5":
     selection = start_menu()
     system('clear')
     if selection == "1":   # list foods
-        list_foods()
+        list_foods(list)
     elif selection == "2": # enter new food
         ask_new_food()
     elif selection == "3": # remove food
