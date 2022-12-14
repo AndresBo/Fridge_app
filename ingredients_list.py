@@ -7,3 +7,5 @@ def list_foods(list):
         for row in reader:
             print (f"{row['food']} {row['quantity']}")
             
+
+
