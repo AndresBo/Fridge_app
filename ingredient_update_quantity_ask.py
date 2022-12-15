@@ -2,10 +2,12 @@ from return_lower_case_string import get_string
 from build_set_food_names import build_set_name
 from return_integer import get_int
 from ingredient_update_quantity import update_food_quantity
+
 food_list = 'food_list.csv'
 
 def update_food_ask():
-    print("Update food quantity")            
+    
+    print("\nUpdate food quantity")            
     food_to_update = get_string()             #get food name user wishes to updated
     if food_to_update is None:                #option to get back to start menu
         return

@@ -7,7 +7,7 @@ from ingredients_list import list_foods
 
 for_test_food_list = 'test_csv.csv'
 
-# test build_set_name outputs correct set give a test csv file with known rows 
+# test build_set_name outputs correct set given a test csv file 
 def test_build_set_name_elements():     
     result = build_set_name(for_test_food_list)
     assert ("capsicum" in result) & ("sausages" in result)
