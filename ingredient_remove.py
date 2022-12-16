@@ -12,7 +12,7 @@ def remove_food(foodRemove):
                 if field == foodRemove:
                     lines.remove(row)
 
-    #rewrite updated list(lines) back to csv file
+    #rewrite WHOLE updated list(lines) back to csv file
     with open('food_list.csv', 'w') as writeFile:
         writer = csv.writer(writeFile)
         writer.writerows(lines)
