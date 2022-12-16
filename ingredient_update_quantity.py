@@ -10,8 +10,8 @@ def update_food_quantity(food):
             lines.append(row)                    #append each row into list "lines"
             for field in row:                    #iterates through every field in row
                 if field == food[0]:             #if field string matches name we wish to update
-                    lines.remove(row)            #remove that row from lines(list)
-                    lines.append(food)           #add updated row to lines(list)
+                    lines.remove(row)              #remove that row from lines(list)
+                    lines.append(food)             #add updated row to lines(list)
     
     # rewrite updated list(lines) back to csv file:
     with open('food_list.csv', 'w') as writeFile:

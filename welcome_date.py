@@ -1,6 +1,6 @@
 import datetime as dt
 
-# welcome message current date, uses datetime module:
+# welcome message current date, using datetime module:
 def welcome_date():
     now = dt.datetime.now()
     day_number = (now.strftime("%d"))
