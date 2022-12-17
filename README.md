@@ -32,4 +32,5 @@ Source of how to [test terminal output of list_foods function](https://stackover
 
 
 ## Inplementation plan:
+<img width="831" alt="implement" src="https://user-images.githubusercontent.com/85352176/208222559-c6f80999-d87e-4b97-aa44-de75d381fc9f.png">
 
