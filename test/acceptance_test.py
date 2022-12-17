@@ -18,7 +18,7 @@ def test_build_set_name_lenght():
     assert len(result) == 2
 
 
-#https://stackoverflow.com/questions/33767627/python-write-unittest-for-console-print
+# source: https://stackoverflow.com/questions/33767627/python-write-unittest-for-console-print
 #test list_foods by asserting output 
 def test_list_foods(capsys):
     list_foods(for_test_food_list)
