@@ -13,7 +13,9 @@ Link to [repository](https://github.com/AndresBo/Fridge_app)
 Styling guide used was [PEP 8](https://peps.python.org/pep-0008/)
 
 ## How to run"
-- On the terminal type: ```python3 --version```
+1. On the terminal type: ```python3 --version```
+   If you get ```python3: command not found```
+
 
 
 ## References:
