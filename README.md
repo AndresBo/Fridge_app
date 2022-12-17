@@ -2,10 +2,10 @@
 
 
 ## Fridge apps allows:
-- Listing current food with quantity: Lists rows of food with quantity.
-- Entering new foods: asks name of new food and its quantity. 
-- Removing foods: asks name of food and removes that food item with corresponding quantity
-- Updating food quantity: asks name of food and new quantity. Updates quantity.
+- Listing current food with quantity
+- Entering new foods with corresponding quantity
+- Removing individual food items
+- Updating food quantity
 
 
 Link to [repository](https://github.com/AndresBo/Fridge_app)
