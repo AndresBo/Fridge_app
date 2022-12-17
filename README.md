@@ -14,7 +14,7 @@ Styling guide used was [PEP 8](https://peps.python.org/pep-0008/)
 
 ## How to run"
 1. On the terminal type: ```python3 --version```
-   If you get ```python3: command not found```
+- If you get ```python3: command not found```
 
 
 
