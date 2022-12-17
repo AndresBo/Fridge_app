@@ -5,7 +5,7 @@
 - Listing current food with quantity
 - Entering new foods with corresponding quantity
 - Removing individual food items
-- Updating food quantity<br />
+- Updating food quantity
 
 
 Link to [repository](https://github.com/AndresBo/Fridge_app)
