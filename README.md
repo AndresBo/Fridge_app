@@ -12,6 +12,9 @@ Link to [repository](https://github.com/AndresBo/Fridge_app)
 
 Styling guide used was [PEP 8](https://peps.python.org/pep-0008/)
 
+## How to run"
+- On the terminal type: ```python3 --version```
+
 
 ## References:
 Source of how to [delete one row from a csv file in python](https://stackoverflow.com/questions/56987312/how-to-delete-only-one-row-in-csv-with-python)
