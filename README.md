@@ -39,3 +39,11 @@ Source of how to [test terminal output of list_foods function](https://stackover
 ## Inplementation plan:
 <img width="831" alt="implement" src="https://user-images.githubusercontent.com/85352176/208222559-c6f80999-d87e-4b97-aa44-de75d381fc9f.png">
 
+## Additional notes about my learning process/project development:
+- Initially the project was using OOP Classes. Due to time restrains I ended refactoring the code to normal functions. Frankly, I still don't understand OOP implementation.
+- Breaking down code into smaller functions is very helpful. Makes debugging easier and the code more readable. 
+- Still trying to wrap my head around TDD, I get the basic premise but the implementation still eludes me. 
+- Favorite part was learning to handle external files like csv.
+- Wanted to add an extra function that would provide recepies based on available foods but time was a problem.
+
+
