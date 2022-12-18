@@ -15,10 +15,13 @@ Link to [presentation video](https://youtu.be/C-oEePfZsnI)
 Styling guide used was [PEP 8](https://peps.python.org/pep-0008/)
 
 ## How to run Fridge
+In the terminal type: ```./run_fridge.sh```. If it does not work follow the steps below:
+
 1. On the terminal type: ```python3 --version```
 - If you get ```python3: command not found```, install python for Mac [here](https://wsvincent.com/install-python/#install-python-on-macos) or for WSl [here](https://wsvincent.com/install-python/#install-python-on-linux)
 - If you have python you will get something like this: ```Python 3.8.10```. 
 - If your python version does not start with a ```3```. Update python by following the links above.
+
 2. Once you have python type: ```./run_fridge.sh``` to run the application
 
 
