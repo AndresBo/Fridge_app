@@ -10,7 +10,7 @@
 
 Link to [repository](https://github.com/AndresBo/Fridge_app)
 
-Link to [presentation video](https://youtu.be/P6aKGegQOxw)
+Link to [presentation video](https://youtu.be/C-oEePfZsnI)
 
 Styling guide used was [PEP 8](https://peps.python.org/pep-0008/)
 
