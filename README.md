@@ -3,7 +3,7 @@
 
 ## Fridge app:
 - Lists current food with quantity
-- Enters new foods with corresponding quantity
+- Enters new foods 
 - Removes individual food items
 - Updates food quantity
 
