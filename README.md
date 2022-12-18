@@ -43,7 +43,7 @@ Source of how to [test terminal output of list_foods function](https://stackover
 - Initially the project was using OOP Classes. Due to time restrains I ended refactoring the code to normal functions. Frankly, I still don't understand OOP implementation.
 - Breaking down code into smaller functions is very helpful. Makes debugging easier and the code more readable. 
 - Still trying to wrap my head around TDD, I get the basic premise but the implementation still eludes me. 
-- Favorite part was learning to handle external files like csv.
+- Favorite part was learning to handle external files like csv. I think my implementation of re-writting the whole csv file when making is probably not very efficient.
 - Wanted to add an extra function that would provide recepies based on available foods but time was a problem.
 
 
